@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/Cellar/node/14.0.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add @feathers.js
+
+PATH: 
+  /Users/matthewsteele/.node_modules/.bin/:/Users/matthewsteele/bin/chromedriver:/Users/matthewsteele/bin/chromedriver:/Users/matthewsteele/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/google-cloud-sdk/bin:/Users/matthewsteele/.node_modules/.bin/:/Users/matthewsteele/bin/chromedriver:/Users/matthewsteele/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/rvm/bin:/Users/matthewsteele/Library/Python/3.6/bin:/Users/matthewsteele/.node/bin:/Users/matthewsteele/.npm_modules/bin:/Users/matthewsteele/Library/Python/3.6/bin:/Users/matthewsteele/.node/bin:/Users/matthewsteele/.npm_modules/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@feathers.js: Request "https://registry.yarnpkg.com/@feathers.js" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:66996:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1218:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "per_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matsteele/journalServer.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/matsteele/journalServer/issues"
+    },
+    "homepage": "https://github.com/matsteele/journalServer#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

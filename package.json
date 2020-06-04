@@ -1,0 +1,22 @@
+{
+  "name": "per_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsteele/journalServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsteele/journalServer/issues"
+  },
+  "homepage": "https://github.com/matsteele/journalServer#readme",
+  "dependencies": {
+    "feathers": "^2.2.4"
+  }
+}
